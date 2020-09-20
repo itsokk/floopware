@@ -5,8 +5,6 @@
 <br/>
 Pull requests are welcome. (please do prs)
 <br>
-TODO:
-  refactor
 
 # How to setup
 Clone the workspace
@@ -31,3 +29,6 @@ gradlew setupDevWorkspace idea genIntellijRuns build
 # Run
 
 Add ```-Dfml.coreMods.load=me.okk.floopware.mixin.launch.FlopLoader``` to VM options.
+
+# TODO
+Refactor the project

@@ -1,13 +1,14 @@
-<h1 align="center">hummingbird</h1>
+<h1 align="center">floopware</h1>
 <div align="center">
-  <strong> an ingrosware fork by chardnol.</strong>
+  <strong>a hummingbird fork by okk.</strong>
 </div>
-<br />
+<br/>
+Pull requests are welcome. (please do prs)
 
 # How to setup
 Clone the workspace
 ```
-https://github.com/CHARDNOL99/IngrosWare-master.git
+https://github.com/itsokk/floopware.git
 ```
 Go into folder and open up a command prompt and do
 
@@ -19,11 +20,11 @@ gradlew setupDevWorkspace idea genIntellijRuns build
 
 # Open in IDE
 **Eclipse**
-```Right click -> New -> Java Project -> Browse location -> Select IngrosWare folder -> Finish```
+```Right click -> New -> Java Project -> Browse location -> Select floopware folder -> Finish```
 
 **Intelij**
-```Open -> Select IngrosWare folder -> Import gradle project```
+```Open -> Select floopware folder -> Import gradle project```
 
 # Run
 
-Add ```-Dfml.coreMods.load=best.reich.ingros.mixin.launch.IngrosLoader``` to VM options.
+Add ```-Dfml.coreMods.load=me.okk.floopware.mixin.launch.FlopLoader``` to VM options.
